@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		AD6DF6EB26D0D032006418D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DF6EA26D0D032006418D3 /* AppDelegate.swift */; };
 		AD6DF6ED26D0D032006418D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DF6EC26D0D032006418D3 /* SceneDelegate.swift */; };
-		AD6DF6EF26D0D032006418D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DF6EE26D0D032006418D3 /* ViewController.swift */; };
 		AD6DF6F226D0D032006418D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6DF6F026D0D032006418D3 /* Main.storyboard */; };
 		AD6DF6F426D0D033006418D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6DF6F326D0D033006418D3 /* Assets.xcassets */; };
 		AD6DF6F726D0D033006418D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6DF6F526D0D033006418D3 /* LaunchScreen.storyboard */; };
+		AD6DF6FF26D0D186006418D3 /* BountyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DF6FE26D0D186006418D3 /* BountyViewController.swift */; };
+		AD6DF70126D0E0C2006418D3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6DF70026D0E0C2006418D3 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD6DF6E726D0D032006418D3 /* imgaes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imgaes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6DF6EA26D0D032006418D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD6DF6EC26D0D032006418D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD6DF6EE26D0D032006418D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD6DF6F126D0D032006418D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD6DF6F326D0D033006418D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD6DF6F626D0D033006418D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD6DF6F826D0D033006418D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6DF6FE26D0D186006418D3 /* BountyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyViewController.swift; sourceTree = "<group>"; };
+		AD6DF70026D0E0C2006418D3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				AD6DF6EA26D0D032006418D3 /* AppDelegate.swift */,
 				AD6DF6EC26D0D032006418D3 /* SceneDelegate.swift */,
-				AD6DF6EE26D0D032006418D3 /* ViewController.swift */,
 				AD6DF6F026D0D032006418D3 /* Main.storyboard */,
+				AD6DF70026D0E0C2006418D3 /* DetailViewController.swift */,
+				AD6DF6FE26D0D186006418D3 /* BountyViewController.swift */,
 				AD6DF6F326D0D033006418D3 /* Assets.xcassets */,
 				AD6DF6F526D0D033006418D3 /* LaunchScreen.storyboard */,
 				AD6DF6F826D0D033006418D3 /* Info.plist */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD6DF6EF26D0D032006418D3 /* ViewController.swift in Sources */,
 				AD6DF6EB26D0D032006418D3 /* AppDelegate.swift in Sources */,
+				AD6DF6FF26D0D186006418D3 /* BountyViewController.swift in Sources */,
 				AD6DF6ED26D0D032006418D3 /* SceneDelegate.swift in Sources */,
+				AD6DF70126D0E0C2006418D3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
